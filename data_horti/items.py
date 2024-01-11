@@ -7,6 +7,8 @@ import scrapy
 
 
 class DataHortiItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    product = scrapy.Field()
+    market = scrapy.Field()
+    update = scrapy.Field()
+    value = scrapy.Field()
+
